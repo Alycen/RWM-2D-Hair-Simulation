@@ -70,9 +70,11 @@
 #include "VaryingRestitution.h"
 #include "VerticalStack.h"
 #include "Web.h"
+#include "Hair.h"
 
 TestEntry g_testEntries[] =
 {
+	{"2D Hair Simulation", Hair::Create },
 	{"Character Collision", CharacterCollision::Create},
 	{"Tiles", Tiles::Create},
 	{"Heavy on Light", HeavyOnLight::Create},

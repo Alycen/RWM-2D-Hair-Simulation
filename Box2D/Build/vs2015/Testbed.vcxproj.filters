@@ -165,6 +165,12 @@
     <ClInclude Include="..\..\Testbed\Framework\DebugDraw.h">
       <Filter>Framework</Filter>
     </ClInclude>
+    <ClInclude Include="Hair.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Testbed\Tests\HeavyOnLight.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Testbed\Framework\Main.cpp">
